@@ -1,0 +1,110 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer1 {
+  padding: 0 5% !important;
+}
+
+.footer ul li {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.footer2 {
+  border-top: 1px solid #323232;
+  padding: 0 5%;
+}
+
+.accordion {
+  background: #000;
+  color: #fff;
+}
+
+.accordion-item {
+  border: 0;
+  background: #000;
+}
+
+.accordion-item.active {
+  border: 0;
+}
+
+.accordion button {
+  padding: 20px 0;
+  height: 56px;
+  background: #000;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.accordion button:focus {
+  border: 0 solid #000 !important;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background: #000;
+}
+
+/*열림 버튼 화살표*/
+.accordion-button::after,
+.accordion-button.active::after {
+  filter: invert(85%) sepia(100%) saturate(0%) hue-rotate(118deg) brightness(104%) contrast(105%);
+}
+
+/*닫힘 버튼 화살표*/
+.accordion-button:not(.collapsed)::after {
+  filter: invert(85%) sepia(100%) saturate(0%) hue-rotate(118deg) brightness(104%) contrast(105%);
+}
+
+div.accordion-body {
+  padding: 0;
+}
+
+div.accordion-collapse {
+  color: #fff;
+  background: #000;
+}
+
+.footer2> ul {
+  margin: 30px 0;
+}
+
+.footer2> ul li {
+  background: #000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.footer2> ul li img {
+  width: 100%;
+  filter: invert(100%) sepia(1%) saturate(5720%) hue-rotate(304deg) brightness(49%) contrast(91%);
+}
+
+.footer2> ul li:hover img {
+  filter: invert(100%) sepia(94%) saturate(25%) hue-rotate(101deg) brightness(108%) contrast(106%);
+}
+
+.footer2> div img {
+  filter: invert(100%) sepia(94%) saturate(25%) hue-rotate(101deg) brightness(108%) contrast(106%);
+  width: 15px;
+  margin-right: 10px !important;
+}
+
+.footer2> div p,
+.footer2> div li,
+.footer3 span {
+  font-size: 0.8rem;;
+  line-height: 1.7rem;
+}
+
+.footer3 {
+  padding: 0 5%;;
+  border-top: 1px solid #7e7e7e;
+} 

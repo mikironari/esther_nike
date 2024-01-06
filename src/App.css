@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0px solid red;
+  text-align: left;
+}
+
+body {
+  width: 100%;
+  max-width: 420px;
+  /* margin: 0 auto !important; */
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: inherit;
+}
+
+h1 {
+  font-size: 3rem !important;
+  line-height: 3.5rem !important;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+/* h5 {
+
+} */
+
+h6 {
+  font-size: 0.7rem !important;
+  line-height: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+a,
+a:visited {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+ul, li {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.spabet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.silver {
+  color: #7e7e7e;
+}
+
+.grey {
+  color: #2e2e2e;
+}
+
+.green {
+  color: #328F43;
+}
+
+.underline {
+  border-top: 1px solid #8e8e8e;
+}
+
+.marleft10 {
+  margin-left: 10px;
+}
+
+.wrap-vertical {
+  width:100%;
+  padding: 20px;
+  overflow: scroll;
+  color: #112031;
+  background: #F0D9FF;
+  border: 1px solid #000;
+  overflow: auto;
+  white-space: no-wrap;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+  margin: 0px auto;
+  /* background:cadetblue; */
+  outline: 1px solid red;
+  color: #000;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left {
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav.upperNav> div.container-fluid {
+  --bs-gutter-x: 0;
+}
+
+.lowerNav {
+  width: 100%;
+  max-width: 420px;
+  background: green!important;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  padding: 20px;
+}
+
+.navnav {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto!important; */
+}
+
+.navbar-brand.lowNavBrand { /*홈 아이콘*/
+  width: 50px;
+  height: 50px;
+  /* margin-right: 20px; */
+  padding: 10px;
+  position: relative;
+  background: red;
+}
+
+.homeIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  margin: auto;
+}
+
+.navnav a {
+  /* margin-right: 20px; */
+  padding: 10px;
+  background: red;
+}
+
+.navnav> :last-child {
+  margin-right: 0px;
+}
+
+button.navbar-toggler {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 0;
+  background: yellow;
+}
+
+.homeIcon {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+
+
+/* button.navbar-togglerbutton:focus:not(:focus-visible) {
+  outline: 0!important;
+}
+
+button.navbar-toggler:focus {
+  outline: 0!important;
+  border: none!important;
+} */
+

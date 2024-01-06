@@ -1,0 +1,102 @@
+a,
+a:visited {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/*product*/
+.productPage {
+  width: 100%;
+  /* s */
+  /* sss */
+  padding: 120px 0 100px 0;
+  background: #fff;
+}
+
+.productPage> div h3 {
+  padding: 0 5%;
+}
+
+.productPage .underline> :nth-child(1) {
+  padding: 0 5%;
+}
+
+
+.mentab {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+/* a.nav-link.active {
+  text-decoration: underline !important;
+  font-weight: bold !important;
+  color: #000;
+} */
+
+/* .carousel1 {
+  width: 100%;
+  overflow: scroll;
+  color: #112031;
+  background: #F0D9FF;
+  border: 1px solid #000;
+  overflow: auto;
+  white-space: no-wrap;
+} */
+
+
+.menCard {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.menCard img {
+  width: 200px;
+  object-fit: cover;
+
+}
+
+/* product2 */
+.product2> div {
+  height: 150px;
+  padding: 0 5%;
+}
+
+.product2 div.menBox {
+  background: linear-gradient(90deg, #0E629C, #73A7CB, #fff);
+}
+
+.product2 div.womenBox {
+  background: linear-gradient(90deg, #E8C3E4, #F7EFF7);
+}
+
+.product2 div.kidBox {
+  background: linear-gradient(90deg, #F3E075, #F3F0DD);
+}
+
+.product2 img {
+  background: none;
+}
+
+.product2 h4 {
+  color: #fff;
+  margin: auto 0;
+}

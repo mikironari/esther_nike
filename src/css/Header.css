@@ -1,0 +1,98 @@
+ul, li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.upperNav {
+  width: 100%;
+  max-width: 420px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  padding: 0px 5% !important;
+  background: #fff !important;
+  display: flex;
+  justify-content: space-between;
+  transition: transform .15s ease;
+}
+
+.menu> ul {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  padding: 40px !important;
+  /* overflow-y: hidden; */
+  
+}
+
+.menu> ul li a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.show-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  transition: 0.3s;
+}
+  
+.hide-menu {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -100%;
+  transition: 0.3s;
+}
+
+/* .upperNav div {
+  margin: 20px;
+} */
+
+/* 상단 네브 검색버튼 */
+.accordion {
+  background: none !important;
+}
+
+/**/
+/* .enter {
+  opacity: 0;
+}
+
+.enterActive {
+  opacity: 1;
+  transition: all 300ms;
+}
+
+.exit {
+  opacity: 1;
+}
+
+.exitActive {
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+} */

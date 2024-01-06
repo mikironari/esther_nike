@@ -1,0 +1,93 @@
+.myAcc {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0 0px 0;
+  background: #d9d9d9;
+}
+
+.acc1 {
+  padding: 60px 5% 40px 5%;
+  border-bottom: 1px solid silver;
+  background: #fff;
+}
+
+.acc1> :nth-child(3) {
+  border: 1px solid #d9d9d9;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.acc1> :nth-child(4) img {
+  filter: invert(72%) sepia(3%) saturate(12%) hue-rotate(345deg) brightness(94%) contrast(83%);
+}
+
+.acc1> :nth-child(3) p {
+  margin: auto;
+}
+
+.acc2 {
+  padding: 0 5%;
+  margin-top: 20px;
+  background: #fff;
+  border-top: 1px solid silver;
+}
+
+.acc2 h6,
+.acc3 h6,
+.acc4 h6 {
+  color: #2e2e2e;
+}
+
+/* .acc2 p,
+.acc2 h6 {
+  line-height: 0;
+} */
+
+/* .acc2 p {
+  line-height: 1rem;
+}
+
+.acc2 h6 {
+  line-height: 0.7rem;
+} */
+
+.acc2> div {
+  padding: 5% 0;
+  height: 100px;
+  /* background: blue; */
+  margin: auto 0;
+}
+
+.acc2> div img {
+  margin: auto 0 !important;
+}
+
+/* .acc2> :nth-child(1)> div {
+  background: yellow;
+  margin: auto 0;
+}
+
+.acc2> :nth-child(1)> div img {
+  margin: auto 0;
+}
+
+.acc2> :nth-child(1) p,
+.acc2> :nth-child(1) h6 {
+  margin: auto 0;
+  background: red;
+}  */
+
+.acc2> :nth-child(2) {
+  border-top: 1px solid silver;
+}
+
+.acc3 {
+  padding: 5%;
+  background: #fff;
+  border-top: 1px solid silver;
+}
+
+.acc3> :nth-child(2)> :nth-child(1) {
+  margin-right: 10px;
+}

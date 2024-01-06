@@ -1,0 +1,94 @@
+.main {
+  padding: 60px 0 100px 0;
+}
+
+.main a {
+  font-size: 0.7rem;
+  text-decoration: underline;
+}
+
+.main1 {
+  padding: 0 5% 0px 5%;
+}
+
+.banner {
+  padding: 5px 5%;
+  background: #f5f5f5;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.banner> div {
+  justify-content: center;
+}
+
+.banner> div> a {
+  margin-left: 10px;
+}
+
+.card {
+  background: none !important;
+  position: absolute !important;
+  /* top: 20px;
+  right: 20px; */
+  position: relative;
+}
+
+.card button {
+  background: none !important;
+  /* position: absolute;
+  top: 20px;
+  right: 20px; */
+}
+
+.lists {
+  padding: 0px 0 80px 0 ;
+  max-height: 950px;
+}
+
+.lists img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.blackbtn {
+  width: 120px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blackbtn:hover {
+  background: grey;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main2,
+.main3 {
+  padding: 40px 5%;
+}
+
+.main1Swiper {
+  width: 300px;
+}
+
+.main1Swiper> :nth-child(1) {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.main1Swiper> :nth-child(1) img {
+  width: 100%;
+  object-fit: cover !important;
+}
