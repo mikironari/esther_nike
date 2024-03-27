@@ -26,15 +26,15 @@ function Product() {
           defaultActiveKey="link-0">
           <Nav.Item>
             <Nav.Link  
-              eventkey="link-0"
+              eventKey="link-0"
               onClick={() => {setTab(0)}}
               className='mentab' >남성</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventkey="link-1" onClick={()=>{setTab(1)}} >여성</Nav.Link>
+            <Nav.Link eventKey="link-1" onClick={()=>{setTab(1)}} >여성</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventkey="link-2" onClick={()=>{setTab(2)}} >키즈</Nav.Link>
+            <Nav.Link eventKey="link-2" onClick={()=>{setTab(2)}} >키즈</Nav.Link>
           </Nav.Item>
         </Nav> 
 
