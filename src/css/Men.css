@@ -1,0 +1,16 @@
+.menPage {
+  width: 100%;
+  /* s */
+  /* sss */
+  padding: 80px 5% 0px 5%;
+  background: #fff;
+}
+
+@media (min-width: 1200px) {
+  
+  .menPage {
+    padding: 130px 5% 50px 5%;
+  }
+  
+
+}

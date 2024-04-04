@@ -59,3 +59,12 @@
   padding: 15px;
   border-radius: 25px;
 }
+
+@media (min-width: 1200px) {
+  
+  .cartPage {
+    padding: 180px 5% 100px 5%;
+  }
+  
+
+}

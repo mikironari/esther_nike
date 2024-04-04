@@ -4,8 +4,10 @@ import { Container, Nav, Navbar, NavDropdown, Button, Form, Offcanvas, NavbarBra
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Header from './routes/Header.js';
 import data from '../data/data';
-import Swiper from 'swiper';
-import MainSwiper from '../components/MainSwiper';
+// import MainSwiper from '../components/MainSwiper';
+import PastelSlick from '../components/PastelSlick';
+import ShopSlick from '../components/ShopSlick';
+// import Slick1 from '../components/Slick2';
 // import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
 
 
@@ -14,7 +16,7 @@ function Main() {
   // let navigate = useNavigate();
   let [mainList] = useState(data);
 
-  return (
+  return ( 
     <div className="main">
 
       <div className='banner center'>
@@ -26,7 +28,12 @@ function Main() {
       </div>
 
       <div className="main1">
-        <div>
+        {/* https://bright-toffee-b5cdc9.netlify.app */}
+
+        {/* <div>
+          <img src={process.env.PUBLIC_URL + '/feel.jpg'} width=""/>
+        </div> */}
+        <div className=''>
           {
             mainList.map((a, i)=>{
               return (
@@ -36,11 +43,30 @@ function Main() {
               })  
           }
         </div>
+
+        {/* <div className='verpc'>
+          {
+            mainPcList.map((a, i)=>{
+              return (
+                <Card2 key={(a, i)} mainPcList={mainPcList[i]} i={i}></Card2>
+                )
+              })  
+          }
+        </div> */}
       </div>
 
       <div className='main2'>
-        <h3 className='mb-4 bold'>겨울 아우터 추천 Apparel</h3>
-        <MainSwiper>
+        <div>
+          <h3 className='mb-4 bold'>파스텔 룩 🎨</h3>
+          <PastelSlick></PastelSlick>
+        </div>
+
+        <div>
+          <h3 className='mb-4 bold'>Shop by Sport</h3>
+          <ShopSlick></ShopSlick>
+        </div>
+
+        {/* <MainSwiper>
           <div  className='main1Swiper'>
             <div>
               <img src={ process.env.PUBLIC_URL + '/mainswiper1-1.png' }/>
@@ -92,9 +118,9 @@ function Main() {
               </div>
             </div>
           </div>
-        </MainSwiper>
+        </MainSwiper> */}
       </div>
-
+{/* 
       <div className='main3'>
         <h3 className='mb-4 bold'>Always Iconic</h3>
         <MainSwiper>
@@ -133,7 +159,7 @@ function Main() {
             <p className='bold'>메트콘</p>
           </div>
         </MainSwiper>
-      </div>
+      </div> */}
 
     </div>
   );
@@ -141,10 +167,14 @@ function Main() {
 
 function Card(props) {
   return (
-    <div className='lists'>
-      <img src={ props.mainList.img } />
-      <h1 className="bold mt-3">{ props.mainList.title }</h1>
-      <p className="left mt-4 mb-4">{ props.mainList.content }</p>
+    <div className='lists mt-5 mb-5'>
+      <img className="vermo"
+          src={ props.mainList.img } />
+      <img className='verpc'
+          src={ props.mainList.imgSrc } />
+      <h1 className="bold mt-4">{ props.mainList.title }</h1>
+      <p className="left mt-4">{ props.mainList.content }</p>
+      <p className="left mb-4">{ props.mainList.text }</p>
       <div className="left">
         <button className="blackbtn">구매하기</button>
       </div>
@@ -152,7 +182,19 @@ function Card(props) {
   )
 }
 
-
+// function Card2(props) {
+//   return (
+//     <div className='lists mt-5 mb-5'>
+//       <img src={ props.mainPcList.img } />
+//       <h1 className="bold mt-5">{ props.mainPcList.title }</h1>
+//       <p className="left mt-5">{ props.mainPcList.content }</p>
+//       <p className="left mb-5">{ props.mainPcList.text }</p>
+//       <div className="left">
+//         <button className="blackbtn">구매하기</button>
+//       </div>
+//     </div>
+//   )
+// }
 
       {/* <div className='lowerNav'>
         <Nav className="navnav">

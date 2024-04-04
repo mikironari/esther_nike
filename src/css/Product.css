@@ -100,3 +100,12 @@ a:hover::after {
   color: #fff;
   margin: auto 0;
 }
+
+@media (min-width: 1200px) {
+  
+  .productPage {
+    padding: 180px 5% 100px 5%;
+  }
+  
+
+}

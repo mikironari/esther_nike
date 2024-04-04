@@ -4,23 +4,24 @@
   padding: 40px 0;
 }
 
-.footer1 {
-  padding: 0 5% !important;
-}
-
 .footer ul li {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 10px 0;
 }
 
+.footer1> ul {
+  padding: 0 5% !important;
+}
+
 .footer2 {
-  border-top: 1px solid #323232;
   padding: 0 5%;
 }
 
 .accordion {
   background: #000;
   color: #fff;
+  border-top: 1px solid #323232;
+  padding: 0 5%
 }
 
 .accordion-item {
@@ -91,20 +92,119 @@ div.accordion-collapse {
   filter: invert(100%) sepia(94%) saturate(25%) hue-rotate(101deg) brightness(108%) contrast(106%);
 }
 
-.footer2> div img {
+.footer3 {
+  padding: 0 5%;
+}
+
+.footer3> div img {
   filter: invert(100%) sepia(94%) saturate(25%) hue-rotate(101deg) brightness(108%) contrast(106%);
   width: 15px;
   margin-right: 10px !important;
 }
 
-.footer2> div p,
-.footer2> div li,
-.footer3 span {
+.footer3> div p,
+.footer3> div li,
+.footer4 span {
   font-size: 0.8rem;;
   line-height: 1.7rem;
 }
 
-.footer3 {
-  padding: 0 5%;;
+.footer4 {
+  padding: 0 5%;
   border-top: 1px solid #7e7e7e;
 } 
+
+@media (min-width: 1200px) {
+  .footer1> ul,
+  .footer2,
+  .footer3,
+  .footer4 {
+    padding: 0 !important;
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+
+  .footerPc {
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%; 
+    padding: 0 5% 60px 5%;
+  }
+
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .footer1> div,
+  .footer1> ul,
+  .footer> .accordion {
+    width: 25%;
+  }
+
+  .footer1> ul> :nth-child(1) {
+    margin-top: 0;
+  }
+
+  .footer1> :nth-child(1) {
+    width: 33.3%;
+  }
+
+  .footer1> .verpc {
+    width: 66.9%;
+  }
+
+  .footer1> .verpc> div {
+    width: 50%;
+  }
+
+  .footer1> :nth-child(3) {
+    display: flex;
+  }
+
+  .footer2 {
+    border-top: 0px solid #323232;
+    width: 50%;
+  }
+
+  .footer2> ul {
+    margin: 0;
+    justify-content: right;
+  }
+
+  .footer2> ul> li {
+    margin-top: 0;
+  }
+
+  .footer2> ul> :last-child {
+    margin-right: 0;
+  }
+
+  .footer3 {
+    padding: 0 5% !important;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #323232; */
+  }
+
+  .footer3> div {
+    display: flex;
+  }
+
+  .footer3> div> :first-child,
+  .footer3 ul li:not(.footer3 ul> :last-child) {
+    margin-right: 30px;
+  }
+
+  .footer3 ul {
+    display: flex;
+  }
+
+  .footer4 {
+    margin: 0 5% !important;
+    padding-top: 20px !important;
+  }
+}

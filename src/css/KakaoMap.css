@@ -1,0 +1,72 @@
+.kakaomap {
+  width: 100%;
+  /* height: 750px;   */
+  padding: 110px 0 60px 0;
+}
+
+.kakaomap> div {
+  padding: 0 5%;
+}
+
+.kakaomap> :nth-child(1)> :nth-child(2) {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #b5b5b5;
+}
+
+.kakaomap> div> :nth-child(2) input {
+  margin-left: 20px;
+  border: 0;
+}
+
+.mapDiv {
+  width: 100% !important;
+}
+
+.maplist> div {
+  padding: 40px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+.maplist> :last-child {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.maplist> div> div> :nth-child(1) {
+  color: #007d48;
+}
+
+.maplist span {
+  margin: 0 5px;
+}
+
+.map {
+  object-fit: fill;
+}
+
+@media (min-width: 1200px) {
+  
+  .kakaomap { 
+    padding: 130px 5% 80px 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .kakaomap> div {
+    padding: 0;
+  }
+
+  .kakaomap> :nth-child(1) {
+    width: 35%;
+  }
+
+  .kakaomap> :nth-child(2) {
+    width: 60% !important;
+  }
+
+  .map {
+    height: 100% !important;
+  }
+
+}

@@ -26,7 +26,7 @@ a:hover::after {
 
 .upperNav {
   width: 100%;
-  max-width: 420px;
+  /* max-width: 420px; */
   height: 60px;
   position: fixed;
   top: 0;
@@ -37,6 +37,10 @@ a:hover::after {
   justify-content: space-between;
   transition: transform .15s ease;
 }
+
+/* .menu {
+  overflow-x: hidden !important;
+} */
 
 .menu> ul {
   width: 100%;
@@ -51,6 +55,10 @@ a:hover::after {
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 3rem;
+}
+
+.menu.vermo> :nth-child(2)> :nth-child(2) img {
+  margin-right: 20px;
 }
 
 .show-menu {
@@ -78,6 +86,11 @@ a:hover::after {
   background: none !important;
 }
 
+/* .kakaomap h6,
+.myaccount h6 {
+  font-size: 1rem;
+} */
+
 /**/
 /* .enter {
   opacity: 0;
@@ -96,3 +109,171 @@ a:hover::after {
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 } */
+
+@media (min-width: 1200px) {
+
+  .pcbanner {
+    padding: 0px 5%;
+    width: 100%;
+    height: 36px;
+    position: fixed;
+  top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+  }
+
+  /* .pcbanner p {
+    font-size: 0.6rem;
+    margin: auto 0 !important;
+  } */
+
+  .pcbanner> :nth-child(1)> div {
+    width: 38px;
+    height: 38px;
+    /* position: relative; */
+  }
+
+  /* .pcbanner> :nth-child(1)> div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: yellow;
+  } */
+
+  .pcbanner> :nth-child(1)> :nth-child(1) {
+    margin-right: 30px;
+  }
+
+  .pcbanner h6 {
+    margin: auto;
+    padding: 10px;
+  }
+
+  .pcbanner span {
+    margin: auto 5px;
+  } 
+
+  /* .kakaomap p,
+  .myaccount p {
+  font-size: 0.6rem;
+} */
+
+  .myacc {
+    margin: auto 0;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+  .myacc:hover {
+    background: #d5d5d5;
+  }
+
+  .upperNav {
+    /* max-width: 1200px; */
+    position: fixed;
+    top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-brand,
+  .pcNav-2,
+  .pcNav-3 {
+    width: 30%;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .pcNav-2 {
+    justify-content: center;
+  }
+
+  .pcNav-2> :nth-child(2) {
+    margin: 0 40px 0 40px;
+  }
+
+  .pcNav-3 {
+    justify-content: right;
+  }
+
+  .pcNav-3> :nth-child(1) {
+    width: 100%;
+  }
+
+  .pcNav-3> :nth-child(1):hover,
+  .pcNav-3> :nth-child(1):hover input {
+    background: #d5d5d5;
+  }
+
+  .pcNav-3> :nth-child(1)> div {
+    width: 15%;
+  }
+
+  .pcNav-3> :nth-child(1) input {
+    width: 85%;
+  }
+
+  .pcNav-3> :nth-child(2) {
+    margin: 0 40px 0 40px;
+    /* margin: auto 0; */
+    padding: 5px 15px;
+    border-radius: 50px;
+  }
+
+  .pcNav-3> :nth-child(2):hover {
+    background: #d5d5d5;
+  }
+
+  .pcNav-3> :nth-child(3) {
+    margin: auto 0;
+    padding: 5px 15px;
+    border-radius: 50px;
+  }
+
+  .pcNav-3> :nth-child(3):hover {
+    background: #d5d5d5;
+  }
+
+  .pcNav-3> :nth-child(2),
+  .pcNav-3> :nth-child(3) {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+  }
+
+  .pcNav-3> :nth-child(2)> img,
+  .pcNav-3> :nth-child(3)> img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* margin: auto;
+    display: block; */
+  }
+
+  .pcNav-3> :nth-child(1) {
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #f5f5f5;
+    position: relative;
+  }
+
+  .pcNav-3> :nth-child(1) img {
+    position: absolute;
+  }
+
+  .pcNav-3 input {
+    background: #f5f5f5;
+    border: 0;
+  }
+}
