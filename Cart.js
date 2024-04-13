@@ -47,7 +47,7 @@ function Cart() {
               <div className="flex">
                 <span>‒</span>
                 <p>30,700</p>
-                <p>원</p>
+                <p className="marleft10">원</p>
               </div>
             </div>
 
@@ -87,7 +87,7 @@ function CartCard(props) {
     <div className="cartCard">
 
       <div className="flex mt-4">
-        <div className="mb-3">
+        <div className="mb-4">
           <img src={props.cartList.img}/>
         </div>  
         <div>
@@ -100,7 +100,6 @@ function CartCard(props) {
         <div className="flex">
           <p>수량</p>
           <Form.Select aria-label="Default select example">
-            <option></option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
