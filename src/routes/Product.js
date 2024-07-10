@@ -75,33 +75,39 @@ function TabContent(props){
       </div>  
 
       <div className='product2'>
-        <div className='spabet menBox mb-2'>
-          <h4>신제품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/menbox1.png'} width="150px"/>
+        
+        <div>
+          <div className='spabet menBox'>
+            <h4>신제품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/menbox1.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet menBox'>
+            <h4>신발</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/menbox2.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet menBox mb-2'>
-          <h4>신발</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/menbox2.png'} width="150px"/>
+        <div>
+          <div className='spabet menBox'>
+            <h4>의류 & 용품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/menbox3.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet menBox'>
+            <h4>Sale : Up to 50%</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/menbox4.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet menBox mb-2'>
-          <h4>의류 & 용품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/menbox3.png'} width="150px"/>
-          </div>
-        </div>
-
-        <div className='spabet menBox mb-2'>
-          <h4>Sale : Up to 50%</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/menbox4.png'} width="150px"/>
-          </div>
-        </div>
       </div>
     </div>
   }else if(props.tab === 1){
@@ -124,33 +130,38 @@ function TabContent(props){
       </div>
 
       <div className='product2'>
-        <div className='spabet womenBox mb-2'>
-          <h4>신제품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/womenbox1.png'} width="150px"/>
+        <div>
+          <div className='spabet womenBox'>
+            <h4>신제품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/womenbox1.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet womenBox'>
+            <h4>신발</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/womenbox2.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet womenBox mb-2'>
-          <h4>신발</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/womenbox2.png'} width="150px"/>
+        <div>
+          <div className='spabet womenBox'>
+            <h4>의류 & 용품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/womenbox3.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet womenBox'>
+            <h4>Sale : Up to 50%</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/womenbox4.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet womenBox mb-2'>
-          <h4>의류 & 용품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/womenbox3.png'} width="150px"/>
-          </div>
-        </div>
-
-        <div className='spabet womenBox mb-2'>
-          <h4>Sale : Up to 50%</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/womenbox4.png'} width="150px"/>
-          </div>
-        </div>
       </div>
     </div>
   }else if(props.tab === 2){
@@ -173,33 +184,38 @@ function TabContent(props){
       </div>
 
       <div className='product2'>
-        <div className='spabet kidBox mb-2'>
-          <h4>신제품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/kidbox1.png'} width="150px"/>
+        <div>
+          <div className='spabet kidBox'>
+            <h4>신제품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/kidbox1.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet kidBox'>
+            <h4>신발</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/kidbox2.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet kidBox mb-2'>
-          <h4>신발</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/kidbox2.png'} width="150px"/>
+        <div>
+          <div className='spabet kidBox'>
+            <h4>의류 & 용품</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/kidbox3.png'} width="150px"/>
+            </div>
+          </div>
+
+          <div className='spabet kidBox'>
+            <h4>Sale : Up to 50%</h4>
+            <div>
+              <img src={process.env.PUBLIC_URL + '/kidbox4.png'} width="150px"/>
+            </div>
           </div>
         </div>
 
-        <div className='spabet kidBox mb-2'>
-          <h4>의류 & 용품</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/kidbox3.png'} width="150px"/>
-          </div>
-        </div>
-
-        <div className='spabet kidBox mb-2'>
-          <h4>Sale : Up to 50%</h4>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/kidbox4.png'} width="150px"/>
-          </div>
-        </div>
       </div>
     </div>
   }

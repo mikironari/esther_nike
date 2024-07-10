@@ -14,58 +14,64 @@ function Cart() {
     <>
       <div className="cartPage">
         
-        <h3 className="mb-4">장바구니</h3>
         <div>
-          {
-            cartList.map((a, i) => {
-              return (
-                <CartCard key={(a, i)} cartList={cartList[i]} i={i}></CartCard>
-              )
-            })
-          }
+          <h3 className="mb-5 bold">장바구니</h3>
+          <div>
+            {
+              cartList.map((a, i) => {
+                return (
+                  <CartCard key={(a, i)} cartList={cartList[i]} i={i}></CartCard>
+                )
+              })
+            }
+          </div>
         </div>
 
-        <div className="mt-4">
-          <div className="spabet">
-            <p>상품 금액</p>
+
+        <div>
+          <div className="mt-4">
             <div>
-              <span></span>
+              <h3 className="mb-5 bold">주문 내역</h3>
+              <div className="spabet">
+                <p>상품 금액</p>
+                <span></span>
+                <div className="flex">
+                  <p> 307,000</p>
+                  <p className="marleft10"> 원</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="spabet green">
+              <p>프로모션 할인</p>
               <div className="flex">
-                <p> 307,000</p>
-                <p className="marleft10"> 원</p>
+                <span>‒</span>
+                <p>30,700</p>
+                <p className="marleft10">원</p>
+              </div>
+            </div>
+
+            <div className="spabet">
+              <p>배송 옵션</p>
+              <div className="flex">
+                <p>표준</p>
+                <span>‒</span>
+                <p>무료</p>
+              </div>
+            </div>
+
+            <div className="spabet mb-2">
+              <p className="bold">총 결제 금액</p>
+              <div className="flex">
+                <p className="bold"> 276,300</p>
+                <p className="bold marleft10"> 원</p>
               </div>
             </div>
           </div>
-
-          <div className="spabet green">
-            <p>프로모션 할인</p>
-            <div className="flex">
-              <span>‒</span>
-              <p>30,700</p>
-              <p>원</p>
-            </div>
+        
+          <div className="center mt-4">
+            <button className="blackbtn">주문하기</button>
           </div>
-
-          <div className="spabet">
-            <p>배송 옵션</p>
-            <div className="flex">
-              <p>표준</p>
-              <span>‒</span>
-              <p>무료</p>
-            </div>
-          </div>
-
-          <div className="spabet mb-2">
-            <p className="bold">총 결제 금액</p>
-            <div className="flex">
-              <p className="bold"> 276,300</p>
-              <p className="bold marleft10"> 원</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="center mt-4">
-          <button className="blackbtn">주문하기</button>
         </div>
 
       </div>
@@ -81,12 +87,12 @@ function CartCard(props) {
     <div className="cartCard">
 
       <div className="flex mt-4">
-        <div className="mb-3">
+        <div className="mb-4">
           <img src={props.cartList.img}/>
         </div>  
         <div>
-          <p className="bold">{ props.cartList.title }</p>
-          <p>{ props.cartList.content }</p>
+          <p className="bold ellipsis">{ props.cartList.title }</p>
+          <p className="ellipsis">{ props.cartList.content }</p>
         </div>
       </div>
 
@@ -94,7 +100,6 @@ function CartCard(props) {
         <div className="flex">
           <p>수량</p>
           <Form.Select aria-label="Default select example">
-            <option></option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
