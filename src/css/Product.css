@@ -69,15 +69,24 @@ a:hover::after {
 }
 
 .menCard img {
-  width: 200px;
+  width: 100%;
   object-fit: cover;
 
 }
 
 /* product2 */
-.product2> div {
+
+.product2> :nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.product2> div> div {
   height: 150px;
   padding: 0 5%;
+}
+
+.product2> div> :nth-child(1) {
+  margin-bottom: 20px;
 }
 
 .product2 div.menBox {
@@ -101,11 +110,64 @@ a:hover::after {
   margin: auto 0;
 }
 
+/* 슬라이드 간 간격 Swiper.js에 spaceBetween에 50 지정해도 안먹혀서 css 파일에 넣으니 적용됨. */
+.menCard> div {
+  margin-right: 50px !important;
+}
+
+@media (min-width: 530px) {
+  
+  .menCard {
+    width: 250px;
+    margin-right: 25px;
+  }
+
+}
+
+
 @media (min-width: 1200px) {
   
   .productPage {
     padding: 180px 5% 100px 5%;
   }
-  
 
+  .productPage> div h3 {
+    padding: 0;
+  }
+
+  .productPage a.nav-link {
+    font-size: 20px;
+  }
+
+  .productPage .underline> :nth-child(1) {
+    padding: 0;
+  }
+
+  .product2> :nth-child(1) {
+    margin-bottom: 0px;
+  }
+
+  .menCard {
+    width: 300px;
+    margin-right: 30px;
+  }
+  
+  .product2> div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product2> div> div {
+    width: 50%;
+  }
+
+  .product2> div> :nth-child(1) {
+    margin-right: 20px;
+  }
+
+  .menCard> div {
+    margin-right: 60px !important;
+  }
+ 
 }
