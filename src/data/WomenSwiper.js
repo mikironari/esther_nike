@@ -28,6 +28,18 @@ let WomenSwiper = [
     id : 4,
     img : "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_300,c_limit/8ed36024-7541-43f4-a1c2-d4471803857b/%EC%8A%A4%EC%9A%B0%EC%8B%9C-%EB%AF%B8%EB%94%94%EC%97%84-%EC%84%9C%ED%8F%AC%ED%8A%B8-%EC%97%AC%EC%84%B1-%ED%8C%A8%EB%93%9C-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EB%B8%8C%EB%9D%BC-psJ9mI0w.png",
     name : "나이키 스우시 미디엄 서포트"
+  },
+
+  {
+    id : 5,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e0449573-1714-4c6d-8892-b19fd28473b8/%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%9B%A8%EC%96%B4-%EC%97%AC%EC%84%B1-%ED%8B%B0%EC%85%94%EC%B8%A0-kCzO01tb.png",
+    name : "나이키 스포츠웨어"
+  },
+
+  {
+    id : 6,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f02ca0ec-7e0b-485d-8916-e6a41866a666/%EC%97%90%EC%96%B4%EB%A1%9C%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EC%97%AC%EC%84%B1-%EB%93%9C%EB%9D%BC%EC%9D%B4-%ED%95%8F-adv-%EB%9F%AC%EB%8B%9D-%EC%8B%B1%EA%B8%80%EB%A0%9B-6LV2vaGU.png",
+    name : "나이키 에어로스위프트"
   }
 ]
 

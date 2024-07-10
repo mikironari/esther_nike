@@ -28,6 +28,18 @@ let KidsSwiper = [
     id : 4,
     img : "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_300,c_limit/e1e5122c-e889-43f9-8a06-9433fde55dc4/%EC%A1%B0%EB%8D%98-%ED%80%BC%ED%8C%85-%EB%AF%B8%EB%8B%88-%EB%B0%B1%ED%8C%A9-%EB%B0%B1%ED%8C%A910l-G0OpHTyK.png",
     name : "나이키 퀄팅 미니 백팩"
+  },
+
+  {
+    id : 5,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9728d715-b1de-48c2-b86d-ec86841eebf3/%ED%81%AC%EB%A1%9C%EC%8A%A4%EC%98%A4%EB%B2%84-%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%A6%AC%ED%8E%A0-%EB%86%8D%EA%B5%AC-%EC%9E%AC%ED%82%B7-gjS9ZyJk.png",
+    name : "나이키 크로스오버"
+  },
+
+  {
+    id : 6,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67169c65-7dc2-4fdd-a1c4-eb6e3d74015d/%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%9B%A8%EC%96%B4-%EC%A3%BC%EB%8B%88%EC%96%B4%EC%97%AC%EC%95%84-%ED%8B%B0%EC%85%94%EC%B8%A0-fgkX8s3e.png",
+    name : "나이키 스포츠웨어"
   }
 ]
 

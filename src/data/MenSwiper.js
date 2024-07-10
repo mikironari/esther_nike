@@ -22,6 +22,24 @@ let MenSwiper = [
     id : 3,
     img : "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_300,c_limit/89a91ebd-3e3d-4550-b10d-561f6ebba30a/%EB%A3%A8%EB%82%98-%ED%8F%AC%EC%8A%A4-1-%EB%82%A8%EC%84%B1-%EB%8D%95%EB%B6%80%EC%B8%A0-WX7xlUO5.png",
     name : "나이키 루나 포스 1"
+  },
+
+  {
+    id : 4,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3466e94c-ac00-49a3-aadb-68bc128cb384/%EC%97%90%EC%96%B4%EB%A7%A5%EC%8A%A4-%ED%94%8C%EB%9F%AC%EC%8A%A4-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-aWjqvK7x.png",
+    name : "에어맥스 플러스"
+  },
+
+  {
+    id : 5,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e68a3519-2715-49bb-8132-790b32e600e1/%EC%97%90%EC%96%B4%EB%A7%A5%EC%8A%A4-%ED%94%8C%EB%9F%AC%EC%8A%A4-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EB%82%A8%EC%84%B1-%EC%8B%A0%EB%B0%9C-exGAXPAq.png",
+    name : "에어맥스 프리미엄"
+  },
+
+  {
+    id : 6,
+    img : "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cd8662cc-1947-4ead-b02f-a474142e7430/%EC%97%90%EC%96%B4%EB%A7%A5%EC%8A%A4-dn-se-%EC%8B%A0%EB%B0%9C-oIaXpSED.png",
+    name : "에어맥스 Dn"
   }
 ]
 
